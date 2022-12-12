@@ -15,7 +15,7 @@ By Higor Vaz
 
 #INSTALLATION
 
-higor@linux:~$ composer global require laravel/installer
+```
 
 higor@linux:~$ nano ~/.bashrc
   export PATH=$PATH:$(composer global config bin-dir --absolute --quiet)
@@ -23,7 +23,7 @@ higor@linux:~$ nano ~/.bashrc
 higor@linux:~$ source ~/.bashrc
 higor@linux:~$ sudo apt install php-xml
 higor@linux:~$ sudo service apache2 restart
-
+higor@linux:~$ composer global require laravel/installer
 higor@linux:~$ laravel new laravel-app
 higor@linux:~/laravel-app$ composer update --with-dependencies
 higor@linux:~/laravel-app$ php artisan migrate
@@ -32,7 +32,7 @@ higor@linux:~/laravel-app$ php artisan ui bootstrap --auth
 higor@linux:~/laravel-app$ npm install && npm run dev
 higor@linux:~/laravel-app$ php artisan serve
 
-
+```
 
 
 
