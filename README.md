@@ -1,4 +1,41 @@
+LARAVEL - Fast Way Starter Kit Application
+
 PHP - Authentication - Security - Login - Scaffold - Reverse Engineering - Dec. 2022
+
+Made with:
+- Love
+- Linux Ubuntu
+- Shotcut
+- VS Code
+- PHP
+- Laravel 
+- PostgreSQL
+
+By Higor Vaz
+
+#INSTALLATION
+
+higor@linux:~$ composer global require laravel/installer
+
+higor@linux:~$ nano ~/.bashrc
+  export PATH=$PATH:$(composer global config bin-dir --absolute --quiet)
+
+higor@linux:~$ source ~/.bashrc
+higor@linux:~$ sudo apt install php-xml
+higor@linux:~$ sudo service apache2 restart
+
+
+
+higor@linux:~$ laravel new laravel-app
+higor@linux:~/laravel-app$ composer update --with-dependencies
+higor@linux:~/laravel-app$ php artisan migrate
+higor@linux:~/laravel-app$ composer require laravel/ui
+higor@linux:~/laravel-app$ php artisan ui bootstrap --auth
+higor@linux:~/laravel-app$ npm install && npm run dev
+higor@linux:~/laravel-app$ php artisan serve
+
+
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
