@@ -24,8 +24,6 @@ higor@linux:~$ source ~/.bashrc
 higor@linux:~$ sudo apt install php-xml
 higor@linux:~$ sudo service apache2 restart
 
-
-
 higor@linux:~$ laravel new laravel-app
 higor@linux:~/laravel-app$ composer update --with-dependencies
 higor@linux:~/laravel-app$ php artisan migrate
